@@ -1,4 +1,4 @@
-import { BsSearch } from 'react-icons/bs';
+import DiscordIcon from './DiscordIcon.js';
 import {
     BrowserRouter as Router,
     Switch,
@@ -24,7 +24,10 @@ const Header = (props) => {
                 */}
                 <ul className='links'>
                     <li>
-                        <Link to='/about'>About Us</Link>
+                        <Link to='/join'>Join</Link>
+                    </li>
+                    <li>
+                        <Link to='/about'>About</Link>
                     </li>
                     <li>
                         <Link to='/projects'>Projects</Link>
@@ -32,8 +35,14 @@ const Header = (props) => {
                     <li>
                         <Link to='/blog'>Blog</Link>
                     </li>
+                    <li>
+                        <Link to='/contact'>Contact</Link>
+                    </li>
                 </ul>
-                <BsSearch id='search-icon' />
+
+                <a href="https://discord.gg/X8BENaR9Ft">
+                    <DiscordIcon />
+                </a>
             </div>
         </header>
     )

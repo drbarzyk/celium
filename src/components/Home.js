@@ -1,20 +1,16 @@
 import React from 'react'
-import Header from "./Header"
+import Landing from "./Landing"
+import Development from "./Development"
+import Community from "./Community"
+import Purpose from "./Purpose"
 
 function Home() {
     return (
         <div className='content'>
-            <div className='heading'>
-                <div className='title'>
-                    <h1>ce·li·​um</h1>
-                    <span>\si-li-əm\</span>
-                </div>
-                <h3 className='tagline'>Connecting developers to build the future.</h3>
-            </div>
-
-            <div className='page-body'>
-
-            </div>
+            <Landing/>
+            <Development />
+            <Community />
+            <Purpose />
         </div>
     )
 }
