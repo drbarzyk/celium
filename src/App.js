@@ -1,9 +1,9 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
-import Home from './components/Home'
-import About from './components/About'
-import Blog from './components/Blog'
+import Home from './pages/Home'
+import About from './pages/About'
+import Blog from './pages/Blog'
 
 import Header from './components/Header'
 import Map from './components/Map'
