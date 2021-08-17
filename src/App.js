@@ -1,12 +1,12 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
-import Home from './components/Home'
-import About from './components/About'
-import Projects from './components/Projects'
-import Blog from './components/Blog'
-import Join from './components/Join'
-import Contact from './components/Contact'
+import Home from './pages/Home'
+import About from './pages/About'
+import Projects from './pages/Projects'
+import Blog from './pages/Blog'
+import Join from './pages/Join'
+import Contact from './pages/Contact'
 
 import Header from './components/Header'
 

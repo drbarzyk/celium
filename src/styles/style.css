@@ -10,7 +10,7 @@ body {
   font-family: 'Raleway', serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url('./background.jpeg');
+  background-image: url('../background.jpeg');
   background-color: rgba(255,255,255,0.8);
   background-blend-mode: lighten;
 
