@@ -4,7 +4,7 @@
 # Prerequisites
 
 - Node 
-	- Windows: Install straight form node (https://nodejs.org/en/download/)
+	- Windows: Install straight from node (https://nodejs.org/en/download/)
 	-  MacOS: Install with homebrew (https://formulae.brew.sh/formula/node)
 
 # Getting Starting
