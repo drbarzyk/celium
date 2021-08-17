@@ -1,8 +1,8 @@
 import React from 'react'
-import Landing from "./Landing"
-import Development from "./Development"
-import Community from "./Community"
-import Purpose from "./Purpose"
+import Landing from "../components/Landing"
+import Development from "../components/Development"
+import Community from "../components/Community"
+import Purpose from "../components/Purpose"
 
 function Home() {
     return (
