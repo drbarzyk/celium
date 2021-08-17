@@ -7,7 +7,7 @@
 	- Windows: Install straight from node (https://nodejs.org/en/download/)
 	-  MacOS: Install with homebrew (https://formulae.brew.sh/formula/node)
 
-# Getting Starting
+# Getting Started
 
 Run `npm install` to download respective node modules.
 
