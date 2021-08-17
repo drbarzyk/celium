@@ -6,7 +6,6 @@ import About from './pages/About'
 import Blog from './pages/Blog'
 
 import Header from './components/Header'
-import Map from './components/Map'
 
 function App() {
   return (
