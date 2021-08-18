@@ -11,4 +11,4 @@
 
 Run `npm install` to download respective node modules.
 
-Run `npm run` in root directory to run local development server which by default you can access at http://localhost:3000/
+Run `npm start` in root directory to run local development server which by default you can access at http://localhost:3000/
