@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/build/index.html/static/css/main.4363ef3c.chunk.css",
+    "main.js": "/build/index.html/static/js/main.e9ea2cd8.chunk.js",
+    "main.js.map": "/build/index.html/static/js/main.e9ea2cd8.chunk.js.map",
+    "runtime-main.js": "/build/index.html/static/js/runtime-main.2caa67d2.js",
+    "runtime-main.js.map": "/build/index.html/static/js/runtime-main.2caa67d2.js.map",
+    "static/js/2.37c31c83.chunk.js": "/build/index.html/static/js/2.37c31c83.chunk.js",
+    "static/js/2.37c31c83.chunk.js.map": "/build/index.html/static/js/2.37c31c83.chunk.js.map",
+    "static/js/3.980a233d.chunk.js": "/build/index.html/static/js/3.980a233d.chunk.js",
+    "static/js/3.980a233d.chunk.js.map": "/build/index.html/static/js/3.980a233d.chunk.js.map",
+    "index.html": "/build/index.html/index.html",
+    "static/css/main.4363ef3c.chunk.css.map": "/build/index.html/static/css/main.4363ef3c.chunk.css.map",
+    "static/js/2.37c31c83.chunk.js.LICENSE.txt": "/build/index.html/static/js/2.37c31c83.chunk.js.LICENSE.txt",
+    "static/media/style.css": "/build/index.html/static/media/background.43e869d1.jpeg",
+    "static/media/discord.c876f0e0.svg": "/build/index.html/static/media/discord.c876f0e0.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2caa67d2.js",
+    "static/js/2.37c31c83.chunk.js",
+    "static/css/main.4363ef3c.chunk.css",
+    "static/js/main.e9ea2cd8.chunk.js"
+  ]
+}
