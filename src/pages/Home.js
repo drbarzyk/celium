@@ -11,8 +11,8 @@ function Home() {
             <Landing/>
             <div className='runway'>
                 <Connect />
-                <Develop />
                 <Learn />
+                <Develop />
             </div>
         </div>
     )
