@@ -1,16 +1,19 @@
 import React from 'react'
 import Landing from "../components/Landing"
-import Development from "../components/Development"
-import Community from "../components/Community"
-import Purpose from "../components/Purpose"
+import Footer from "../components/Footer"
+import Connect from "../components/Connect"
+import Learn from "../components/Learn"
+import Develop from "../components/Develop"
 
 function Home() {
     return (
         <div className='content'>
             <Landing/>
-            <Development />
-            <Community />
-            <Purpose />
+            <div className='runway'>
+                <Connect />
+                <Develop />
+                <Learn />
+            </div>
         </div>
     )
 }
