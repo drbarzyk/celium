@@ -31,7 +31,7 @@ function App() {
     //   </Router>
     // </div>
 
-    <div>
+    <div className="app">
       <Router>
         <NewHeader />
         <Switch>

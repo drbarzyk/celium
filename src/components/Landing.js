@@ -8,7 +8,10 @@ function Landing() {
                     <h1>ce·li·​um</h1>
                     <span>\si-li-əm\</span>
                 </div>
-                <h3>Connect with developers. Build the future.</h3>
+                <div>
+                    <p>Connect with developers.</p>
+                    <p>Build the future.</p>
+                </div>
             </div>
         </div>
     )
