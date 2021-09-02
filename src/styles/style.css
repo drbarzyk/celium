@@ -206,6 +206,9 @@ body {
 .landing {
     height: 100vh;
 }
+.landing h1, span {
+    font-family: "Montserrat";
+}
 
 .landing .landing-inner {
     display: flex;
