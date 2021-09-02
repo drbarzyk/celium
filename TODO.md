@@ -4,7 +4,7 @@
 - [ ] set up bluescape / jira for org management tools
 - [ ] look for project development tools: roadmaps, MVPs, standards etc.
 
-## https://celieum.network
+## https://celium.network
 ### Front End
 - [ ] design footer
 - [ ] branding
@@ -44,7 +44,7 @@
   - [ ] come up with cool features - DYOR, pick and choose to integrate into one bot
 
 # Completed ✓
-## https://celieum.network
+## https://celium.network
 ### Back End
 - [x] solve dns issues, get it LIVE
 
