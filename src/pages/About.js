@@ -3,15 +3,16 @@ import Map from '../components/Map'
 
 function About() {
     return (
-        <div className='content'>
-            <div className='heading'>
-                <div className='title'>
-                    <h1>about</h1>
-                </div>
-                <h3 className='tagline'>read more about us!</h3>
+        <div className='wrapper'>
+            <div className='container page-content'>
+                <h1>About</h1>
+                <h3>Learn more about the Celium Network!</h3>
+                <p>
+
+                </p>
             </div>
 
-            <div className='page-body'>
+            <div className='map-wrapper'>
                 <Map />
             </div>
         </div>

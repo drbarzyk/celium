@@ -5,9 +5,9 @@ import {
 
 function NewHeader() {
     return (
-        <div class="header">
-            <Link to='/' className="logo">
-                <img src='mushroom.png' alt='logo' id='brand-icon' />
+        <div className='header'>
+            <Link to='/'>
+                <img src='mushroom.png' alt='logo' className='brand-icon' />
             </Link>
             <div className="menu-wrap">
                 <input type="checkbox" className="toggler" />
@@ -16,6 +16,9 @@ function NewHeader() {
                     <div>
                         <div>
                             <ul className='links'>
+                                <li>
+                                    <Link to='/'>Home</Link>
+                                </li>
                                 <li>
                                     <Link to='/join'>Join</Link>
                                 </li>

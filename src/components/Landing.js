@@ -2,7 +2,7 @@ import React from 'react'
 
 function Landing() {
     return (
-        <div className='landing'>
+        <div className='wrapper landing'>
             <div className='container landing-inner'>
                 <div>
                     <h1>ce·li·​um</h1>

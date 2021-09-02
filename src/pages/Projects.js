@@ -1,16 +1,17 @@
 import React from 'react'
 
-function Projects() {
+function Contact() {
     return (
-        <div className='content'>
-            <div className='heading'>
-                <div className='title'>
-                    <h1>projects</h1>
-                </div>
-                <h3 className='tagline'>what we've been working on!</h3>
+        <div className='wrapper'>
+            <div className='container page-content'>
+                <h1>Projects</h1>
+                <h3>What we've been working on!</h3>
+                <p>
+
+                </p>
             </div>
         </div>
     )
 }
 
-export default Projects
+export default Contact

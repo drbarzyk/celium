@@ -4,8 +4,9 @@
 
 :root {
     --gradient-primary: rgba(255, 255, 255, .9);
-    --gradient-secondary: rgba(46, 159, 126, .95);
+    --gradient-secondary: rgba(46, 159, 126, .98);
     --menu-speed: 0.75s;
+    --header-height: 92px;
 }
   
 * {
@@ -46,25 +47,35 @@ body {
     padding: 0 3rem;
 }
 
+.wrapper {
+    height: 100vh;
+}
+
 /*******************************
-    Home Page - Menu
+    Mapbox
+*******************************/
+
+.map-wrapper {
+    position: absolute; 
+    top: 0; 
+    bottom: 0; 
+    width: 100%;
+    z-index: -1;
+}
+
+/*******************************
+    Menu
 *******************************/
 
 .header {
-    position: sticky;
-    display: flex;
-    justify-content: space-between;
-    z-index: 1;
+    width: 100%;
 }
 
-.logo {
+.brand-icon {
+    width: 60px;
     position: absolute;
-    left: 0;
-    margin: 1rem;
-}
-
-#brand-icon {
-    width: 50px;
+    top: 1rem;
+    left: 1rem;
 }
 
 .menu-wrap > * {
@@ -121,6 +132,7 @@ body {
 /* Toggler animate */
 .menu-wrap .toggler:checked + .hamburger > div {
     transform: rotate(135deg);
+    background-color: white;
 }
 
 /* Turn lines into X */
@@ -128,6 +140,7 @@ body {
 .menu-wrap .toggler:checked + .hamburger > div:after {
     top: 0;
     transform: rotate(90deg);
+    background-color: white;
 }
 
 /* Rotate on hover when checked */
@@ -203,9 +216,6 @@ body {
     Home Page - Landing
 *******************************/
 
-.landing {
-    height: 100vh;
-}
 .landing h1, span {
     font-family: "Montserrat";
 }
@@ -233,6 +243,23 @@ body {
 .landing .landing-inner .tagline {
     display: flex;
     justify-content: center;
+}
+
+/*******************************
+    Page Content
+*******************************/
+
+.page-content {
+    height: 100%;
+    padding: var(--header-height) 2rem;
+}
+
+.page-content h1 {
+    font-family: "Montserrat";
+}
+
+.page-content p {
+    margin: 1rem 0;
 }
 
 /*******************************
