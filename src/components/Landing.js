@@ -8,7 +8,7 @@ function Landing() {
                     <h1>ce·li·​um</h1>
                     <span>\si-li-əm\</span>
                 </div>
-                <div>
+                <div className="tagline">
                     <p>Connect with developers.</p>
                     <p>Build the future.</p>
                 </div>
