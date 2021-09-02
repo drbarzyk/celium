@@ -9,8 +9,8 @@ function Landing() {
                     <span>\si-li-əm\</span>
                 </div>
                 <div className="tagline">
-                    <p>Connect with developers.</p>
-                    <p>Build the future.</p>
+                    <p>Connecting developers.</p>
+                    <p>Building the future.</p>
                 </div>
             </div>
         </div>
