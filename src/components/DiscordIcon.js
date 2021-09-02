@@ -1,5 +1,5 @@
 import React from 'react';
-import DiscordSvg from '../discord.svg';
+import DiscordSvg from '../img/discord.svg';
 
 function DiscordIcon() {
   return (
