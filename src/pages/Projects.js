@@ -5,7 +5,7 @@ function Contact() {
         <div className='wrapper'>
             <div className='container page-content'>
                 <h1>Projects</h1>
-                <h3>What we've been working on!</h3>
+                <h3>See what we've been working on!</h3>
                 <p>
 
                 </p>
