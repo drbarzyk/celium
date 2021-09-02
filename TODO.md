@@ -31,7 +31,7 @@
   - [ ] design layout
 
 ### Back End
-- [ ] solve dns issues, get it LIVE
+- [x] solve dns issues, get it LIVE
 - [ ] my.celium accounts backend
   - [ ] user profiles
   - [ ] interact with blogs
@@ -44,9 +44,8 @@
   - [ ] come up with cool features - DYOR, pick and choose to integrate into one bot
 
 # Completed ✓
-### https://celieum.network
-
-### Discord Bot
-
+## https://celieum.network
+### Back End
+- [x] solve dns issues, get it LIVE
 
 _Devs: The TODO.md formatting standard is outlined in the README.md. Please adhere to these rules._
