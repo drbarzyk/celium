@@ -7,8 +7,9 @@ function Landing() {
             <div className='container landing-inner'>
                 <div className='landing-content'>
                     <div className='header'>
-                        <h1>ce·li·​um</h1>
-                        <span>\si-li-əm\</span>
+                        <h1>celium.network</h1>
+                        {/* <h1>ce·li·​um</h1> */}
+                        {/* <span>\si-li-əm\</span> */}
                     </div>
                     <div className="tagline">
                         <span>Connecting developers.</span>

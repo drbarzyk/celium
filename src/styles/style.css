@@ -78,6 +78,17 @@ body {
     left: 1rem;
 }
 
+@keyframes shake {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.5); }
+    100% { transform: scale(1.2) rotate(360deg); }
+}
+.brand-icon:hover { 
+    animation: shake ease-in-out 1s 1;
+    transform: scale(1.2);
+}
+
+
 .menu-wrap > * {
     position: absolute;
     top: 1rem;
@@ -220,6 +231,22 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    
+    background: linear-gradient(0deg, var(--gradient-primary), var(--gradient-secondary), var(--gradient-primary));
+    background-size: 100% 400%;
+    animation: gradient 60s ease-in-out infinite, gradient-text 30s ease-in-out infinite;
+}
+
+@keyframes gradient {
+    0%{background-position:50% 0%}
+    50%{background-position:51% 100%;}
+    100%{background-position:50% 0%}
+}
+
+@keyframes gradient-text {
+    30%{color:black;}
+    50%{color:white;}
+    70%{color: black;}
 }
 
 .landing * {
@@ -293,7 +320,7 @@ body {
 }
 
 .join-discord.btn:active {
-    transform: translateY(15px) scale(1.2);
+    transform: translateY(6px) scale(1.2);
     transition: all .2s;
 }
 
