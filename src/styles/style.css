@@ -292,17 +292,17 @@ body {
 
 .landing .landing-inner .landing-content .header > h1 > .celium {
     color:rgb(46, 159, 126);
-    text-shadow: 2px 2px 3px rgba(0, 0, 0, .25);
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, .25);
     animation: gradient-celium 60s ease-in-out infinite;
 }
 @keyframes gradient-celium {
-    10%{color:rgb(46, 159, 126);text-shadow: 2px 2px 3px rgba(0, 0, 0, .25);}
+    10%{color:rgb(46, 159, 126);text-shadow: 1px 1px 4px rgba(0, 0, 0, .25);}
     22%{color:white;text-shadow: none;}
-    35%{color: rgb(46, 159, 126);text-shadow: 2px 2px 3px rgba(0, 0, 0, .25);}
-    67%{color:rgb(46, 159, 126);text-shadow: 2px 2px 3px rgba(0, 0, 0, .25);}
+    35%{color: rgb(46, 159, 126);text-shadow: 1px 1px 4px rgba(0, 0, 0, .25);}
+    67%{color:rgb(46, 159, 126);text-shadow: 1px 1px 4px rgba(0, 0, 0, .25);}
     75%{color:white;text-shadow: none;}
-    88%{color: rgb(46, 159, 126);text-shadow: 2px 2px 3px rgba(0, 0, 0, .25);}
-    100%{color: rgb(46, 159, 126);text-shadow: 2px 2px 3px rgba(0, 0, 0, .25);}
+    88%{color: rgb(46, 159, 126);text-shadow: 1px 1px 4px rgba(0, 0, 0, .25);}
+    100%{color: rgb(46, 159, 126);text-shadow: 1px 1px 4px rgba(0, 0, 0, .25);}
 }
 
 .landing .landing-inner .landing-content .tagline {
