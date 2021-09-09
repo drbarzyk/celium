@@ -233,7 +233,7 @@ body {
 
     background: linear-gradient(0deg, var(--gradient-primary), var(--gradient-secondary), var(--gradient-primary));
     background-size: 100% 400%;
-    animation: gradient 60s ease-in-out infinite, gradient-text 30s ease-in-out infinite;
+    animation: gradient 60s ease-in-out infinite, gradient-text 60s ease-in-out infinite;
 }
 
 @keyframes gradient {
@@ -243,9 +243,12 @@ body {
 }
 
 @keyframes gradient-text {
-    30%{color:black;}
-    50%{color:white;}
-    70%{color: black;}
+    10%{color:black;}
+    25%{color:white;}
+    35%{color: black;}
+    65%{color:black;}
+    75%{color:white;}
+    90%{color: black;}
 }
 
 .landing * {
