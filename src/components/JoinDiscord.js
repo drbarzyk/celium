@@ -3,10 +3,10 @@ import DiscordIcon from './DiscordIcon'
 
 function JoinDiscord() {
     return (
-        <div className="join-discord">
+        <a href="https://discord.gg/X8BENaR9Ft" className="join-discord btn">
             <span>Join Our Network</span>
             <DiscordIcon color="white" height="32px"/>
-        </div>
+        </a>
     )
 }
 

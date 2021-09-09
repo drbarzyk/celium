@@ -11,8 +11,8 @@ function Landing() {
                         <span>\si-li-əm\</span>
                     </div>
                     <div className="tagline">
-                        <p>Connecting developers.</p>
-                        <p>Building the future.</p>
+                        <span>Connecting developers.</span>
+                        <span>Building the future.</span>
                     </div>
                 </div>
                 <JoinDiscord />

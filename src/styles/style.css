@@ -216,10 +216,6 @@ body {
     Home Page - Landing
 *******************************/
 
-.landing h1, span {
-    font-family: "Montserrat";
-}
-
 .landing {
     display: flex;
     justify-content: center;
@@ -227,25 +223,38 @@ body {
 }
 
 .landing * {
-    margin: .25rem;
+    margin: 0 .25rem;
 }
 
 .landing .landing-inner {
     display: flex;
     flex-flow: column;
     align-items: center;
+    overflow:visible;
+}
+
+.landing .landing-inner .landing-content > * {
+    margin: .25rem;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, .25);
 }
 
 .landing .landing-inner .landing-content .header {
     display: flex;
-    align-items: baseline;
     justify-content: center;
+    align-items: baseline;
+
+    /* flex-flow: column; */
 }
 
 .landing .landing-inner .landing-content .tagline {
     display: flex;
-    justify-content: center;
-    align-items: baseline;
+    flex-flow: column;
+    /* flex-flow: column; */
+}
+
+.landing .landing-inner .landing-content .tagline > * {
+    display: inline-block;
+    align-self: center;
 }
 
 .join-discord {
@@ -257,11 +266,35 @@ body {
     text-transform: uppercase;
     font-weight: bolder;
     padding: .25rem 1rem;
-    margin: .5rem;
+    margin: 1rem;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .3);
+    /* text-shadow: 5px 5px 10px rgba(0, 0, 0, .3); */
 }
 
 .join-discord > * {
-    margin: .5rem;
+    margin: .5rem .25rem;
+    /* filter: drop-shadow(4px 6px 4px rgba(0, 0, 0, .3)); */
+}
+
+.join-discord > img {
+    height: 20px;
+}
+
+.join-discord.btn {
+    color: white;
+    transition: all .2s;
+    text-decoration: none;
+}
+
+.join-discord.btn:hover {
+    transform: scale(1.2);
+    transition: all .2s;
+    cursor: pointer;
+}
+
+.join-discord.btn:active {
+    transform: translateY(15px) scale(1.2);
+    transition: all .2s;
 }
 
 /*******************************
@@ -285,16 +318,24 @@ body {
     Responsive
 *******************************/
 
-@media screen and (min-width: 800px) {
-    .landing h1 {
-        font-size: 4rem;
-    }
-    
-    .landing span {
-        font-size: 1.66rem;
+@media screen and (min-width: 641px) {
+    .landing .landing-inner .landing-content .header {
+        flex-flow: row;
+        font-size: 3vw;
     }
 
-    .landing p {
-        font-size: 1.66rem;
+    .landing .landing-inner .landing-content .tagline {
+        flex-flow: row;
+        font-size: 3vw;
+    }
+}
+
+@media screen and (min-width: 1008px) {
+    .landing .landing-inner .landing-content .header {
+        font-size: 2vw;
+    }
+
+    .landing .landing-inner .landing-content .tagline {
+        font-size: 2vw;
     }
 }
