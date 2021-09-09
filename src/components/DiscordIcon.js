@@ -1,6 +1,6 @@
 import React from 'react';
-import DiscordWhite from '../img/Discord-Logo-White.svg';
-import DiscordBlack from '../img/Discord-Logo-Black.svg';
+import DiscordWhite from '../img/Discord-Logo-White.png';
+import DiscordBlack from '../img/Discord-Logo-Black.png';
 
 function DiscordIcon(props) {
   return (
