@@ -220,29 +220,48 @@ body {
     font-family: "Montserrat";
 }
 
-.landing .landing-inner {
+.landing {
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
-    align-content: center;
-    text-align: center;
-    height: 100%;
+    align-items: center;
 }
 
-.landing .landing-inner > div {
+.landing * {
+    margin: .25rem;
+}
+
+.landing .landing-inner {
     display: flex;
-    flex-wrap: wrap;
+    flex-flow: column;
+    align-items: center;
+}
+
+.landing .landing-inner .landing-content .header {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.landing .landing-inner .landing-content .tagline {
+    display: flex;
+    justify-content: center;
     align-items: baseline;
 }
 
-.landing .landing-inner > div > * {
-    margin: 0 .25rem;
+.join-discord {
+    display: flex;
+    align-items: center;
+    color: white;
+    background: var(--gradient-secondary);
+    border-radius: 2rem;
+    text-transform: uppercase;
+    font-weight: bolder;
+    padding: .25rem 1rem;
+    margin: .5rem;
 }
 
-.landing .landing-inner .tagline {
-    display: flex;
-    justify-content: center;
+.join-discord > * {
+    margin: .5rem;
 }
 
 /*******************************

@@ -15,21 +15,6 @@ import NewHeader from './components/NewHeader'
 
 function App() {
   return (
-    // <div>
-    //   <Router>
-    //     <Header />
-    //     <div className='wrapper-column'>
-    //       <Switch>
-    //         <Route path="/" exact component={Home} />
-    //         <Route path="/join" exact component={Join} />
-    //         <Route path="/about" exact component={About} />
-    //         <Route path="/projects" exact component={Projects} />
-    //         <Route path="/blog" exact component={Blog} />
-    //         <Route path="/contact" exact component={Contact} />
-    //       </Switch>
-    //     </div>
-    //   </Router>
-    // </div>
 
     <div className="app">
       <Router>

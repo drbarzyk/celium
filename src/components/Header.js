@@ -1,4 +1,4 @@
-import DiscordIcon from './DiscordIcon.js';
+import DiscordIcon from './DiscordIcon';
 import {
     Link
 } from "react-router-dom";
